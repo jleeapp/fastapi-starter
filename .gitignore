@@ -1,0 +1,41 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+*.pyzw
+*.egg-info/
+dist/
+build/
+*.egg
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+.env

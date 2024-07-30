@@ -6,13 +6,13 @@ This is a starter project for a FastAPI application.
 
 1. Clone the repository:
 
-   ```
+   ```sh
    git clone https://github.com/jleeapp/fastapi-starter.git
    ```
 
 2. Create a virtual environment and activate it:
 
-   ```
+   ```sh
    cd fastapi-starter
    python3 -m venv venv
    ```
@@ -21,7 +21,7 @@ This is a starter project for a FastAPI application.
 
    #### Mac & Linux
 
-   ```
+   ```sh
    source venv/bin/activate
    ```
 
@@ -31,20 +31,20 @@ This is a starter project for a FastAPI application.
 
    ##### In cmd.exe
 
-   ```
+   ```sh
    venv\Scripts\activate.bat
    ```
 
    ##### In PowerShell
 
-   ```
+   ```sh
    venv\Scripts\Activate.ps1
    ```
 
 
 3. Install the requirements:
 
-   ```
+   ```sh
    pip3 install -r requirements.txt
    ```
 
@@ -52,7 +52,7 @@ This is a starter project for a FastAPI application.
 
 To run the application, use the following command:
 
-```
+```sh
 uvicorn app.main:app --reload
 ```
 
@@ -61,6 +61,6 @@ The application will be available at `http://localhost:8000`.
 
 ## Test
 
-```
+```sh
 pytest
 ```

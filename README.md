@@ -19,7 +19,7 @@ This is a starter project for a FastAPI application.
 
    ### venv activation
 
-   #### Mac & Linux
+   #### macOS/Linux
 
    ```sh
    source venv/bin/activate
@@ -27,20 +27,9 @@ This is a starter project for a FastAPI application.
 
    #### Windows 
 
-   To activate your venv on Windows, you need to run a script that gets installed by venv.
-
-   ##### In cmd.exe
-
    ```sh
-   venv\Scripts\activate.bat
+   venv\Scripts\activate
    ```
-
-   ##### In PowerShell
-
-   ```sh
-   venv\Scripts\Activate.ps1
-   ```
-
 
 3. Install the requirements:
 
